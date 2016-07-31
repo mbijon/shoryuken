@@ -27,4 +27,6 @@ RSpec.describe Shoryuken::Manager do
         .to raise_error(ArgumentError, 'Concurrency value -1 is invalid, it needs to be a positive number')
     end
   end
+
+  # TODO add real tests for manager
 end
